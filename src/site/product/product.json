@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/book.md",
+  "tags": "book",
+  "templateEngineOverride": "njk,md"
+}
