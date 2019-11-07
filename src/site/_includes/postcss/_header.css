@@ -63,11 +63,6 @@
   }
 }
 
-.header__filter {
-  position: absolute;
-  visibility: hidden;
-}
-
 @keyframes pour {
   from {
     transform: scaleY(0);

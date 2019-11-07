@@ -28,6 +28,16 @@ h3 {
   max-width: 600px;
 }
 
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+
 a {
   color: $blue;
   text-decoration: underline wavy $green;
@@ -37,8 +47,8 @@ a {
   }
 }
 
+@import "_button.css";
 @import "_header.css";
 @import "_footer.css";
 @import "_product-list.css";
 @import "_product.css";
-@import "_button.css";

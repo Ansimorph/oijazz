@@ -1,21 +1,37 @@
+$product-breakpoint: 500px;
+
 .product {
   position: relative;
   grid-template-columns: 30% 1fr;
   grid-gap: 20px;
   max-width: 600px;
   margin: 0 auto;
+  overflow: hidden;
 
   img {
     width: 100%;
   }
 
-  @media (min-width: 400px) {
+  @media (min-width: $product-breakpoint) {
     display: grid;
   }
 }
 
 .product__title {
-  max-width: calc(100% - 100px);
+  text-align: center;
+
+  @media (min-width: $product-breakpoint) {
+    text-align: left;
+    max-width: calc(100% - 100px);
+  }
+}
+
+.product__button {
+  display: block;
+
+  @media (min-width: $product-breakpoint) {
+    display: inline-block;
+  }
 }
 
 .product__price {
