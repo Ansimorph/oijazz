@@ -18,8 +18,10 @@
   height: 100vh;
   background-color: #ff0;
   border-top-left-radius: 25px;
-  transition: 200ms ease-in;
+  transition: all 100ms ease-in;
+  transform-origin: 0 0;
   will-change: opacity;
+  z-index: 5;
 }
 
 .header__image {
@@ -33,7 +35,8 @@
 
     ~ .header__beer {
       opacity: 0.6;
-      animation: squiggly-anim 0.4s linear infinite;
+      transform: scaleY(1);
+      animation: pour 0.4s ease-in, wiggle 0.4s linear infinite;
     }
   }
 }
@@ -43,7 +46,16 @@
   visibility: hidden;
 }
 
-@keyframes squiggly-anim {
+@keyframes pour {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes wiggle {
   0% {
     filter: url("#squiggly-0");
   }

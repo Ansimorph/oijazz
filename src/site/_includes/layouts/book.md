@@ -5,6 +5,9 @@ templateEngineOverride: njk, md
 ---
 
 <main>
-  <img src="/images/products/{{cover}}" alt="{{title}}">
+  <img src="/images/products/{{ cover }}" alt="{{ title }}">
+  <h1>{{ title }}</h1>
+  <span>{{ price }} €</span>
+  <span>{{ pages }} Seiten</span>
   {{ content | safe }}
 </main>
