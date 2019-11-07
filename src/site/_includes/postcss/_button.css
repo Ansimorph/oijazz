@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  background-color: $green;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+  color: $text-color;
+  text-decoration: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s $ease-out-cubic;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

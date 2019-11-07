@@ -36,5 +36,5 @@
   position: absolute;
   opacity: 0;
   z-index: 1;
-  transition: opacity 0.2s cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+  transition: opacity 0.2s $ease-out-cubic;
 }

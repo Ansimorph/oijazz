@@ -1,12 +1,22 @@
 @import "_variables.css";
 
 body {
-  background-color: $background;
+  background-color: $background-color;
+  font-family: sans-serif;
+  line-height: 1.2;
+  color: $text-color;
 }
 
 ul {
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  font-family: "Permanent Marker", cursive;
 }
 
 .container {
@@ -16,3 +26,5 @@ ul {
 
 @import "_header.css";
 @import "_product-list.css";
+@import "_product.css";
+@import "_button.css";
