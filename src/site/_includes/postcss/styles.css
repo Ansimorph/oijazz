@@ -24,7 +24,21 @@ h3 {
   margin: 0 auto;
 }
 
+.container--small {
+  max-width: 600px;
+}
+
+a {
+  color: $blue;
+  text-decoration: underline wavy $green;
+
+  &:hover {
+    text-decoration: underline wavy $red;
+  }
+}
+
 @import "_header.css";
+@import "_footer.css";
 @import "_product-list.css";
 @import "_product.css";
 @import "_button.css";

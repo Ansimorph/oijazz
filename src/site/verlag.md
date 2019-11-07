@@ -1,6 +1,7 @@
 ---
 title: Der Verlag
 layout: layouts/base.njk
+smallContainer: true
 ---
 
 <p>»Oi Jazz, ja, Oi Jazz hatte es wenigstens nicht nötig gehabt, in einer Großstadt erfunden worden zu sein. Die Jungs vor mir kommen auch aus irgendeinem brandenburgischen Kaff, vielleicht auch Sachsen-Anhalt.<br>

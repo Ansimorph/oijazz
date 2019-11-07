@@ -1,6 +1,7 @@
 ---
 title: Impressum
 layout: layouts/base.njk
+smallContainer: true
 ---
 
 Betreiber und verantwortlich für die Inhalte dieser Webseite und des Webshops ist:

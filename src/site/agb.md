@@ -1,6 +1,7 @@
 ---
 title: AGB
 layout: layouts/base.njk
+smallContainer: true
 ---
 
 <div class="field-item even"><p> <b>Inhalt</b>:<br> I. Allgemeine Geschäftsbedingungen (AGB)<br> II. Datenschutzerklärung<br><br>

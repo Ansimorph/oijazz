@@ -1,4 +1,4 @@
 module.exports = {
-  "rootUrl" : "https://site-root-url.com",
-  "buildTime" : new Date()
-}
+  rootUrl: "https://oijazz.org",
+  buildTime: new Date(),
+};

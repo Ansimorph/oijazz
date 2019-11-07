@@ -1,6 +1,5 @@
 ---
 title: Oijazz
-subtitle: Oijazz Verlag
 layout: layouts/base.njk
 ---
 
