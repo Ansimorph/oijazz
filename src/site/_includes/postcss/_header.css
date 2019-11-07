@@ -9,6 +9,11 @@
   position: relative;
 }
 
+.header__beer,
+.header__bottom-beer {
+  background-color: #ff0;
+}
+
 .header__beer {
   opacity: 0;
   position: absolute;
@@ -16,12 +21,24 @@
   right: 5px;
   width: 10px;
   height: 100vh;
-  background-color: #ff0;
   border-top-left-radius: 25px;
   transition: all 100ms ease-in;
   transform-origin: 0 0;
   will-change: opacity;
   z-index: 5;
+}
+
+.header__bottom-beer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  pointer-events: none;
+  transform-origin: 50% 100%;
+  transform: scaleY(0);
+  will-change: transform;
 }
 
 .header__image {
@@ -37,6 +54,11 @@
       opacity: 0.6;
       transform: scaleY(1);
       animation: pour 0.4s ease-in, wiggle 0.4s linear infinite;
+    }
+
+    ~ .header__bottom-beer {
+      animation: pour 60s ease-in;
+      animation-delay: 2s;
     }
   }
 }
