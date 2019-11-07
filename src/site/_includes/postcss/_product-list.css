@@ -1,0 +1,28 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 220px);
+  padding-right: 80px;
+  justify-content: center;
+
+  li {
+    list-style: none;
+  }
+
+  li {
+    &:hover {
+      z-index: 2;
+    }
+  }
+
+  li:nth-of-type(3n) img {
+    margin-top: -40px;
+  }
+
+  li:nth-of-type(2n) img {
+    margin-top: -10px;
+  }
+
+  li:nth-of-type(4n + 1) img {
+    margin-top: -60px;
+  }
+}

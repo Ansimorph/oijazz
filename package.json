@@ -2,7 +2,7 @@
   "name": "Oijazz",
   "version": "3.0.0",
   "description": "A project bootstrap for Eleventy sites. With pipelines for PostCSS, JavaScript, and serverless functions",
-  "author": "Phil Hawksworth",
+  "author": "Björn Ganslandt",
   "license": "MIT",
   "scripts": {
     "start": "npm run dev",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/philhawksworth/eleventyone"
+    "url": "https://github.com/ansimorph/oijazz"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
