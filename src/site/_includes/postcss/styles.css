@@ -7,6 +7,16 @@ body {
   color: $text-color;
 }
 
+@font-face {
+  font-family: "Permanent Marker";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Permanent Marker Regular"), local("PermanentMarker-Regular"),
+    url("/fonts/permanent-marker-v9-latin-regular.woff2") format("woff2"),
+    url("/fonts/permanent-marker-v9-latin-regular.woff") format("woff");
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -16,7 +26,7 @@ h1,
 h2,
 h3 {
   margin-top: 0;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Permanent Marker", sans-serif;
 }
 
 .container {
