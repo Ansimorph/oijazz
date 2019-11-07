@@ -8,7 +8,7 @@ layout: layouts/base.njk
   <li>
     <a href="{{ book.url }}">
       <img src="/images/products/{{ book.data.cover | smallImage }}" alt="{{ book.data.title }}">
-      <img class="product-list__shadow-image" src="/images/products/{{ book.data.cover | smallImage }}" aria-hidden>
+      <img class="product-list__shadow-image" src="/images/products/{{ book.data.cover | smallImage }}" aria-hidden="true">
     </a>
   </li>
 {%- endfor -%}
