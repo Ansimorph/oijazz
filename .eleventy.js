@@ -11,6 +11,7 @@ module.exports = function(config) {
   config.addFilter("squash", require("./src/utils/filters/squash.js"));
   config.addFilter("dateDisplay", require("./src/utils/filters/date.js"));
   config.addFilter("smallImage", require("./src/utils/filters/small-image.js"));
+  config.addFilter("mailText", require("./src/utils/filters/email-text.js"));
 
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);
