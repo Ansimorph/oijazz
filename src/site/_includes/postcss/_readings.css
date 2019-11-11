@@ -8,6 +8,7 @@
   }
 }
 
-.reading__date {
+.reading__date,
+.reading__title {
   display: block;
 }
