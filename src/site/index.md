@@ -4,6 +4,18 @@ layout: layouts/base.njk
 ---
 
 <ul class="product-list">
+  <li>
+    <div class="reading">
+      <h2>Lesungen</h2>
+      <ul class="js_dates-section">
+      </ul>
+    </div>
+    <div class="reading product-list__shadow-image">
+      <h2>Lesungen</h2>
+      <ul class="js_dates-section">
+      </ul>
+    </div>
+  </li>
 {%- for book in collections.book -%}
   <li>
     <a href="{{ book.url }}">

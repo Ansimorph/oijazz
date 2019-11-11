@@ -1,0 +1,13 @@
+.reading {
+  width: 300px;
+  padding: 20px;
+  background-color: thistle;
+
+  li {
+    margin-bottom: 20px;
+  }
+}
+
+.reading__date {
+  display: block;
+}

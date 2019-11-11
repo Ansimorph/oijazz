@@ -1,5 +1,11 @@
 @import "_variables.css";
 
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
 body {
   background-color: $background-color;
   font-family: sans-serif;
@@ -63,3 +69,4 @@ a {
 @import "_footer.css";
 @import "_product-list.css";
 @import "_product.css";
+@import "_readings.css";
