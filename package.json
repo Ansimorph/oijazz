@@ -7,9 +7,10 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
-    "build": "yarn resize-images && cross-env ELEVENTY_ENV=prod eleventy",
+    "build": "yarn resize-images && yarn resize-images-webp && cross-env ELEVENTY_ENV=prod eleventy",
     "seed": "cross-env ELEVENTY_ENV=seed eleventy",
-    "resize-images": "sharp-image-resizer resize -i ./src/site/images/products/ -o ./src/site/images/products/resized/"
+    "resize-images": "npx sharp-cli -i src/site/images/products/*.* -o src/site/images/products/resized/ -f jpg resize 300 0",
+    "resize-images-webp": "npx sharp-cli -i src/site/images/products/*.* -o src/site/images/products/resized/ -f webp resize 300 0"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,6 @@
   },
   "devDependencies": {
     "cross-env": "5.2.0",
-    "sharp-image-resizer": "^0.3.0"
+    "sharp-cli": "^1.11.0"
   }
 }

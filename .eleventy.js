@@ -10,8 +10,12 @@ module.exports = function(config) {
   // Add some utility filters
   config.addFilter("squash", require("./src/utils/filters/squash.js"));
   config.addFilter("dateDisplay", require("./src/utils/filters/date.js"));
-  config.addFilter("smallImage", require("./src/utils/filters/small-image.js"));
   config.addFilter("mailText", require("./src/utils/filters/email-text.js"));
+
+  config.addShortcode(
+    "productImage",
+    require("./src/utils/shortcodes/product-image.js")
+  );
 
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);

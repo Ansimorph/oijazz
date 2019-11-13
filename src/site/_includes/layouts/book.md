@@ -14,7 +14,7 @@ Meine Adresse lautet:
 ---
 
 <div class="product">
-  <img src="/images/products/{{ cover | smallImage }}" alt="{{ title }}">
+  {% productImage cover, title %}
 
   <div class="product__description">
     <h1 class="product__title">{{ title }}</h1>
