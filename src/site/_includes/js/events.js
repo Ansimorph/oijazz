@@ -19,7 +19,7 @@ function getDates() {
         entry.forEach(element => {
           const li = document.createElement("li");
           li.innerHTML =
-            '<li><span class="reading__date">' +
+            '<span class="reading__date">' +
             element.gsx$datum.$t +
             '</span><a class="reading__venue" href="' +
             element.gsx$url.$t +
@@ -27,7 +27,7 @@ function getDates() {
             element.gsx$titel.$t +
             "</span>" +
             element.gsx$venue.$t +
-            "</a></li>";
+            "</a>";
           // Column names are name, age, etc.
 
           eventElement.appendChild(li);
