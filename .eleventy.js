@@ -37,6 +37,7 @@ module.exports = function(config) {
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/fonts");
+  config.addPassthroughCopy("./src/site/google1e03e51ff2928a76.html");
 
   // make the seed target act like prod
   env = env == "seed" ? "prod" : env;
