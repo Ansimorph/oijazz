@@ -16,7 +16,7 @@ layout: layouts/base.njk
       </ul>
     </div>
   </li>
-{%- for book in collections.book -%}
+{%- for book in collections.book | reverse -%}
   <li>
     <a href="{{ book.url }}">
       {% productImage book.data.cover, book.data.title %}
