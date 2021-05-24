@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "cross-env": "5.2.0",
-    "sharp-cli": "^1.11.0",
+    "sharp-cli": "^1.15.0",
     "terser": "^4.4.0"
   }
 }
