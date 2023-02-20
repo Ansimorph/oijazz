@@ -1,6 +1,6 @@
 ---
 title: "Max Furnier: Discokeller"
-price: 6,90
+price: 6.90
 cover: discokeller-cover.jpg
 pages: 58
 ---

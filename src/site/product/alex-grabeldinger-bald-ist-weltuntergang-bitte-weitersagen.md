@@ -1,6 +1,6 @@
 ---
 title: "Alex Gräbeldinger: Bald ist Weltuntergang, bitte weitersagen!"
-price: 9,90
+price: 9.90
 cover: alex_graebeldinger_weltuntergang.jpg
 pages: 180
 ---

@@ -1,6 +1,8 @@
 const SHIPPING_COST = 2;
 
 function initPayPalButton({ name, price }) {
+  if (!price || isNaN(price) || !name) return;
+
   paypal
     .Buttons({
       style: {

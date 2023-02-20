@@ -1,6 +1,6 @@
 ---
 title: "Oi Jazz Tasche in weiß"
-price: 4,00
+price: 4.00
 cover: oijazz-tasche-weisz.png
 ---
 

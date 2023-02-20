@@ -1,6 +1,6 @@
 ---
 title: "Slow Pete's Badass 70ies Jamaican Record Label Guide"
-price: 19,90
+price: 19.90
 cover: jamaica.jpg
 pages: 189
 ---

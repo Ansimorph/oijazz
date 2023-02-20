@@ -1,6 +1,6 @@
 ---
 title: "Lustiger Bob: Oi Jazz - Unmotiviertes Phrasengedresche"
-price: 9,90
+price: 9.90
 cover: oijazz_cover_2.png
 pages: 210
 ---

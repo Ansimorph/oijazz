@@ -1,6 +1,6 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
-module.exports = function(config) {
+module.exports = function (config) {
   // A useful way to reference the context we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;
 
@@ -17,6 +17,13 @@ module.exports = function(config) {
     require("./src/utils/shortcodes/product-image.js")
   );
 
+  config.addShortcode("localPrice", function (priceString) {
+    return Intl.NumberFormat("de-DE", {
+      style: "currency",
+      currency: "EUR",
+    }).format(priceString);
+  });
+
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);
 
@@ -24,7 +31,7 @@ module.exports = function(config) {
   config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
   // compress and combine js files
-  config.addFilter("jsmin", function(code) {
+  config.addFilter("jsmin", function (code) {
     const Terser = require("terser");
     let minified = Terser.minify(code);
     if (minified.error) {

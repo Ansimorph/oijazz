@@ -1,6 +1,6 @@
 ---
 title: "Ismael Díot: [UNTEN]"
-price: 9,90
+price: 9.90
 cover: unten-cover.png
 pages: 210
 ---

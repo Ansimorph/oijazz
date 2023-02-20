@@ -1,6 +1,6 @@
 ---
 title: "Kopfnuss #1: Beiträge für einen kreativen und farbenfrohen Weltuntergang"
-price: 9,90
+price: 9.90
 cover: kopfnuss.jpg
 pages: 190
 ---

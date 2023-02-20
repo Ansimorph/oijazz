@@ -1,6 +1,6 @@
 ---
 title: "Hedda Plecher: Death Metal"
-price: 9,90
+price: 9.90
 cover: deathmetal.jpg
 pages: 318
 ---

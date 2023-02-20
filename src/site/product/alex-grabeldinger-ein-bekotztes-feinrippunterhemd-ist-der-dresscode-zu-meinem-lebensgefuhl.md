@@ -1,6 +1,6 @@
 ---
 title: "Alex Gräbeldinger: Ein bekotztes Feinrippunterhemd ist der Dresscode zu meinem Lebensgefühl"
-price: 9,90
+price: 9.90
 cover: dresscode.jpg
 pages: 174
 ---

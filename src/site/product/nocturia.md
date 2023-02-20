@@ -1,6 +1,6 @@
 ---
 title: "Nocturia - Ein Spiel übers Aufs-Klo-Gehen-Müssen"
-price: 0,00
+price: 0.00
 cover: nocturia
 link: https://ansimorph.itch.io/nocturia
 linkTitle: Zum Spiel

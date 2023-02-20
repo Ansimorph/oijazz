@@ -18,7 +18,7 @@ Meine Adresse lautet:
 
   <div class="product__description">
     <h1 class="product__title">{{ title }}</h1>
-    <p class="product__price">{{ price }} €</p>
+    <p class="product__price">{% localPrice price %}</p>
     {%- if link %}
     <a class="button product__button" href="{{link}}">{{linkTitle}}</a>
     {%- else %}
@@ -36,4 +36,4 @@ Meine Adresse lautet:
   </div>
 </div>
 <script src="https://www.paypal.com/sdk/js?client-id=AcV5HL0xQA5l0ydCNZ1u4Ltkd168rKs6tdZVSz-NPAFUoEetC5RV2YFoXPxLD7vOUcSmp1Jd5bUv9EEs&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>
-<script defer>initPayPalButton({price: Number("{{price}}".replace(",", ".")), name: "{{title}}"})</script>
+<script defer>initPayPalButton({price: {{price}}, name: "{{title}}"})</script>

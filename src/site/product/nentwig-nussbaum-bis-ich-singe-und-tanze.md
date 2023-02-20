@@ -1,6 +1,6 @@
 ---
 title: "Nentwig / Nußbaum: Bis ich singe und tanze"
-price: 9,90
+price: 9.90
 cover: bis-ich-singe-und-tanze-front.jpg
 pages: 215
 ---
