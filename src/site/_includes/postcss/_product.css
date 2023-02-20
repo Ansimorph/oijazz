@@ -26,10 +26,7 @@
 
 .product__button {
   display: block;
-
-  @media (min-width: $product-breakpoint) {
-    display: inline-block;
-  }
+  text-align: center;
 }
 
 .product__price {

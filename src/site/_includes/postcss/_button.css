@@ -9,9 +9,9 @@
   text-decoration: none;
   padding: 20px;
   margin-bottom: 20px;
-  transition: transform 0.2s $ease-out-cubic;
+  transition: filter 0.2s $ease-out-cubic;
 
   &:hover {
-    transform: scale(1.1);
+    filter: blur(1px);
   }
 }

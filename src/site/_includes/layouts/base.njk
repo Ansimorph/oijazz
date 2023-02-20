@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="//spreadsheets.google.com">
     <title>{{ title }}</title>
+    {% set js %}
+      {% include "js/events.js" %}
+      {% include "js/buy.js" %}
+    {% endset %}
+    <script async>{{ js | jsmin | safe }}</script>
   </head>
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
@@ -18,11 +23,6 @@
       </main>
       {% include "footer.njk" %}
     </div>
-
-    {% set js %}
-      {% include "js/events.js" %}
-    {% endset %}
-    <script>{{ js | jsmin | safe }}</script>
 
   </body>
 </html>
