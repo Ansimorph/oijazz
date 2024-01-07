@@ -9,8 +9,7 @@
     <link rel="preconnect" href="//spreadsheets.google.com">
     <title>{{ title }}</title>
     {% set js %}
-      {% include "js/events.js" %}
-      {% include "js/buy.js" %}
+<!-- {% include "js/events.js" %} -->
     {% endset %}
     <script async>{{ js | jsmin | safe }}</script>
   </head>

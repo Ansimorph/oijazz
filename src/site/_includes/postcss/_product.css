@@ -17,6 +17,7 @@
 
 .product__title {
   text-align: center;
+  min-height: 3lh;
 
   @media (min-width: $product-breakpoint) {
     text-align: left;
